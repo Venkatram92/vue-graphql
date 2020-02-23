@@ -1,0 +1,65 @@
+{
+  "name": "vueapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link-http": "^1.5.14",
+    "apollo-server-express": "^2.4.8",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.4.19",
+    "nodemon": "^1.18.10",
+    "popper.js": "^1.14.7",
+    "vue": "^2.6.6",
+    "vue-apollo": "^3.0.0-beta.28",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/prettier"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
